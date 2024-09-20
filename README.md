@@ -8,3 +8,7 @@ https://docs.google.com/document/d/1xCqsJ4U1l4xTAhlT8QEj8gRE4w-Gnm9XUMOQZn88UBo/
 Wireframe mobile draft:
 
 https://drive.google.com/file/d/1CPXHke1rWnJ80PRDQyEvyxC86t8Mh1Tw/view?usp=sharing
+
+Trello Board:
+
+https://trello.com/b/uchiFKxN/tnr-app
