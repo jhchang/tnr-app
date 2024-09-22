@@ -5,7 +5,6 @@ function HomePage() {
   const navigate = useNavigate();
 
   function onButtonClick() {
-    console.log('Clicked Get started with us');
     navigate('/login');
   }
 

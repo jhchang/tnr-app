@@ -6,11 +6,12 @@ function LoginPage(props) {
   const [password, setPassword] = useState('');
   const [emailError, setEmailError] = useState('');
   const [passwordError, setPasswordError] = useState('');
+  const [isSubmit, setIsSubmit] = useState(false);
 
   const navigate = useNavigate();
 
   function onButtonClick() {
-    console.log('Clicked Log in');
+    setIsSubmit(!isSubmit);
   }
 
   return (
@@ -47,6 +48,12 @@ function LoginPage(props) {
           value={'Log in'}
         />
       </div>
+      {isSubmit && (
+        <div>
+          <p>You've submitted {email} as your email</p>{' '}
+          <p>You've submitted {password} as your password</p>
+        </div>
+      )}
     </div>
   );
 }
