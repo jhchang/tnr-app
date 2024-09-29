@@ -50,7 +50,7 @@ function LoginPage(props) {
       </div>
       {isSubmit && (
         <div>
-          <p>You've submitted {email} as your email</p>{' '}
+          <p>You've submitted {email} as your email</p>
           <p>You've submitted {password} as your password</p>
         </div>
       )}
