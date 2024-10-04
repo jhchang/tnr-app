@@ -20,5 +20,9 @@ export default function RandomFacts() {
     return () => clearInterval(timerId);
   }, []);
 
-  return <div>{facts[index]}</div>;
+  return (
+    <div className='rounded-md border-4 py-2 px-4 text-center'>
+      {facts[index]}
+    </div>
+  );
 }
